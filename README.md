@@ -1,4 +1,4 @@
-# Cheery
+# Quote Therapy
 RESTful API view and save quotes from Goodreads Community.
 
 ### Demo
