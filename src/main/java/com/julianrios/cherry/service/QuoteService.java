@@ -14,7 +14,13 @@ public class QuoteService {
     @Autowired
     private QuoteRepository quoteRepository;
 
+    // TODO method to findBy Tag
 
+    // TODO method to findBy Author
 
+    // TODO method to findBy Publication
 
+    // TODO method to save a quote
+
+    // TODO method to remove a quote
 }
