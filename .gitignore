@@ -254,3 +254,10 @@ gradle-app.setting
 
 ### Gradle Patch ###
 **/build/
+
+# Eclipse Core
+.project
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+.settings

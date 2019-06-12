@@ -8,10 +8,10 @@ RESTful API view and save quotes from Goodreads Community.
 
 
 ### User Stories
-- [ ] As a user, I can create a user account.
-- [ ] As a user, I can delete my user account.
+- [ ] As a user, I can create a profile.
+- [ ] As a user, I can delete my profile.
 - [ ] As a user, I can create my own quote.
-- [ ] As a user, I can share my quote with another user.
+- [ ] As a user, I can share my quote with another profile.
 - [ ] As a user, I can search for quotes by tag.
 - [ ] As a user, I can search for quotes by author.
 - [ ] As a user, I can search for quotes by publication.

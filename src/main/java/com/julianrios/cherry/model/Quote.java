@@ -2,6 +2,9 @@ package com.julianrios.cherry.model;
 
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 /**
  * A quote object that stores author, quote, and/or publication title based on the quote data obtained or given.
@@ -9,6 +12,9 @@ import javax.persistence.Entity;
 @Entity
 public class Quote {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
     private String author;
     private String quote;
     private String publication;
